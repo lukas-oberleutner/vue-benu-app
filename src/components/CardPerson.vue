@@ -31,9 +31,9 @@ withDefaults(defineProps<Props>(), {
           <li v-if="facebookLink">
             <a
               :href="facebookLink"
+              :aria-label="`facebook link of ${ personName }`"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Facebook link"
             >
               <Icon :size="SIZE_MD" class="text-primary hover:text-primaryDark ease-out duration-500">
                 <span v-html="iconFacebook"></span>
@@ -41,10 +41,11 @@ withDefaults(defineProps<Props>(), {
             </a>
           </li>
           <li v-if="instagramLink">
-            <a aria-label="Instagram link"
-               :href="instagramLink"
-               target="_blank"
-               rel="noopener noreferrer"
+            <a
+              :aria-label="`instagram link of ${ personName }`"
+              :href="instagramLink"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Icon :size="SIZE_MD" class="text-primary hover:text-primaryDark ease-out duration-500">
                 <span v-html="iconInstagram"></span>
@@ -52,10 +53,12 @@ withDefaults(defineProps<Props>(), {
             </a>
           </li>
           <li v-if="twitterLink">
-            <a aria-label="Twitter link"
-               :href="twitterLink"
-               target="_blank"
-               rel="noopener noreferrer">
+            <a
+              :aria-label="`twitter link of ${ personName }`"
+              :href="twitterLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon :size="SIZE_MD" class="text-primary hover:text-primaryDark ease-out duration-500">
                 <span v-html="iconTwitter"></span>
               </Icon>

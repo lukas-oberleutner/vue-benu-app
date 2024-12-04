@@ -167,7 +167,7 @@ const teamMembers = ref<ITeamMember[]>([
             the two major realms of Classical physics: Newtonian mechanics
           </Text>
         </div>
-        <div class="lg:-mx-[15px]">
+        <div class="lg:-mx-[15px] relative">
           <CardCarousel :itemCount="teamMembers.length">
             <div v-for="(person, index) in teamMembers" :key="index">
               <CardPerson

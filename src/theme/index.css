@@ -31,11 +31,18 @@
         @apply text-text break-words
     }
     a {
-        @apply text-text hover:text-primary transition ease-out duration-500
+        @apply flex text-text rounded-sm hover:text-primary transition ease-out duration-500 x-focus
+    }
+    input,
+    button {
+        @apply x-focus
     }
 }
 
 @layer utilities {
+    .x-focus {
+        @apply focus:outline-none focus:ring focus:ring-primaryLight
+    }
     .x-decorator--sm {
         @apply before:block before:content-[''] before:mb-[24px] before:bg-tertiary before:w-[50px] before:h-[2px]
     }

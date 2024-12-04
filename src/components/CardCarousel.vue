@@ -41,7 +41,13 @@ const updateVisibleItems = () => {
   }
 };
 
+const handleKeydown = (event) => {
+  if (event.key === "ArrowLeft") prev();
+  if (event.key === "ArrowRight") next();
+};
+
 onMounted(() => {
+  window.addEventListener("keydown", handleKeydown);
   window.addEventListener('resize', updateVisibleItems);
   updateVisibleItems();
 });
@@ -49,7 +55,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="overflow-hidden relative w-full py-[30px] px-[15px]">
+  <div class="overflow-hidden w-full py-[30px] px-[15px]">
     <div
       class="flex transition-transform duration-300 ease-in-out gap-[30px]"
       :style="{ transform: `translateX(-${currentIndex * totalItemWidth}px)` }"

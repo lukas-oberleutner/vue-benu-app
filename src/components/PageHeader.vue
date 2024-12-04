@@ -25,7 +25,7 @@ const onBtnClick = () => {
     <PageSection class="bg-bgColored py-[15px]">
       <div class="h-[61px] flex items-center justify-between relative">
         <div class="text-xl font-bold lg:grow-0">
-          <a href="" class="text-title hover:text-title">Brandname</a>
+          <a href="/" class="p-[10px] text-title hover:text-title">Brandname</a>
         </div>
         <BaseButton
           class="!p-[15px] lg:hidden"
