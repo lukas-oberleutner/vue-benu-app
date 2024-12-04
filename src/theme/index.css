@@ -1,0 +1,45 @@
+@import "@fontsource/montserrat/latin-400.css";
+@import "@fontsource/montserrat/latin-700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-size: 87.5%; /* 1rem = 14px */
+    }
+    body {
+        @apply font-montserrat text-base font-normal break-words
+    }
+    h1 {
+        @apply text-title text-3xl font-bold break-words
+    }
+    h2 {
+        @apply text-title text-2xl font-bold break-words
+    }
+    h3 {
+        @apply text-title text-xl font-bold break-words
+    }
+    h5 {
+       @apply text-title font-bold break-words
+    }
+    h6 {
+        @apply text-primary font-bold break-words
+    }
+    p {
+        @apply text-text break-words
+    }
+    a {
+        @apply text-text hover:text-primary transition ease-out duration-500
+    }
+}
+
+@layer utilities {
+    .x-decorator--sm {
+        @apply before:block before:content-[''] before:mb-[24px] before:bg-tertiary before:w-[50px] before:h-[2px]
+    }
+    .x-decorator--lg {
+        @apply before:content-[''] before:absolute before:left-0 before:top-0 before:bg-tertiary before:w-[94px] before:h-[7px]
+    }
+}
