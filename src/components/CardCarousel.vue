@@ -41,7 +41,7 @@ const updateVisibleItems = () => {
   }
 };
 
-const handleKeydown = (event) => {
+const handleKeydown = (event: KeyboardEvent) => {
   if (event.key === "ArrowLeft") prev();
   if (event.key === "ArrowRight") next();
 };
