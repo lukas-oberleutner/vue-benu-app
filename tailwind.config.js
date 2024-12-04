@@ -42,7 +42,7 @@ module.exports = {
         lg: '20px',
       },
       backgroundImage: {
-        'bgImage': "url('src/assets/images/bg-image.png')",
+        'bgImage': "url('/images/bg-image.png')",
       },
       boxShadow: {
         card: '0 13px 19px 0 rgba(0, 0, 0, 0.07)',

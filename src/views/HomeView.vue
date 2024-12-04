@@ -100,7 +100,7 @@ const teamMembers = ref<ITeamMember[]>([
     <main>
       <PageSection class="bg-bgColored mt-[91px]" :isHeaderHome="true">
         <div>
-          <div class="flex flex-col gap-[30px] text-center lg:px-[] xl:pl-[147px] lg:text-left">
+          <div class="flex flex-col gap-[30px] text-center lg:px-[] xl:pl-[122px] lg:text-left">
             <Heading as="h6" class="break-words">Welcome</Heading>
             <Heading as="h1" class="break-words">Best Learning<br /> Opportunities</Heading>
             <Text class="text-lg">
