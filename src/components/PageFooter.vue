@@ -22,37 +22,37 @@ import Heading from '@/components/Heading.vue';
         <div>
           <Heading as="h5" class="mb-[20px]">Company Info</Heading>
           <ul class="flex flex-col gap-[10px] font-bold">
-            <li><a href="/">About Us</a></li>
-            <li><a href="/">Carrier</a></li>
-            <li><a href="/">We are hiring</a></li>
-            <li><a href="/">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Carrier</a></li>
+            <li><a href="#">We are hiring</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
         </div>
         <div>
           <Heading as="h5" class="mb-[20px]">Legal</Heading>
           <ul class="flex flex-col gap-[10px] font-bold">
-            <li><a href="/">About Us</a></li>
-            <li><a href="/">Carrier</a></li>
-            <li><a href="/">We are hiring</a></li>
-            <li><a href="/">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Carrier</a></li>
+            <li><a href="#">We are hiring</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
         </div>
         <div>
           <Heading as="h5" class="mb-[20px]">Features</Heading>
           <ul class="flex flex-col gap-[10px] font-bold">
-            <li><a href="/">Business Marketing</a></li>
-            <li><a href="/">User Analytic</a></li>
-            <li><a href="/">Live Chat</a></li>
-            <li><a href="/">Unlimited Support</a></li>
+            <li><a href="#">Business Marketing</a></li>
+            <li><a href="#">User Analytic</a></li>
+            <li><a href="#">Live Chat</a></li>
+            <li><a href="#">Unlimited Support</a></li>
           </ul>
         </div>
         <div>
           <Heading as="h5" class="mb-[20px]">Resources</Heading>
           <ul class="flex flex-col gap-[10px] font-bold">
-            <li><a href="/">IOS & Android</a></li>
-            <li><a href="/">Watch a Demo</a></li>
-            <li><a href="/">Customers</a></li>
-            <li><a href="/">API</a></li>
+            <li><a href="#">IOS & Android</a></li>
+            <li><a href="#">Watch a Demo</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">API</a></li>
           </ul>
         </div>
         <div>
@@ -92,21 +92,21 @@ import Heading from '@/components/Heading.vue';
         <p class="font-bold">Made With Love By Figmaland All Right Reserved</p>
         <ul class="flex items-center justify-center gap-[20px]">
           <li>
-            <a href="/" aria-label="Facebook link">
+            <a href="#" aria-label="Facebook link">
               <Icon :size="SIZE_MD" class="text-primary hover:text-primaryDark ease-out duration-500">
                 <span v-html="iconFacebook"></span>
               </Icon>
             </a>
           </li>
           <li>
-            <a href="/" aria-label="Instagram link">
+            <a href="#" aria-label="Instagram link">
               <Icon :size="SIZE_MD" class="text-primary hover:text-primaryDark ease-out duration-500">
                 <span v-html="iconInstagram"></span>
               </Icon>
             </a>
           </li>
           <li>
-            <a href="/" aria-label="Twitter link">
+            <a href="#" aria-label="Twitter link">
               <Icon :size="SIZE_MD" class="text-primary hover:text-primaryDark ease-out duration-500">
                 <span v-html="iconTwitter"></span>
               </Icon>

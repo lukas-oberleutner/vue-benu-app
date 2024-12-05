@@ -25,7 +25,7 @@ const onBtnClick = () => {
     <PageSection class="bg-bgColored py-[15px]">
       <div class="h-[61px] flex items-center justify-between relative">
         <div class="text-xl font-bold lg:grow-0">
-          <a href="/" class="p-[10px] text-title hover:text-title">Brandname</a>
+          <a href="#" class="p-[10px] text-title hover:text-title">Brandname</a>
         </div>
         <BaseButton
           class="!p-[15px] lg:hidden"
@@ -55,7 +55,7 @@ const onBtnClick = () => {
             <li><RouterLink class="block p-[10px]" to="/">Contact</RouterLink></li>
           </ul>
           <div class="flex flex-col lg:flex-row gap-[10px] mt-[10px] pt-[10px] border-t border-border lg:border-none lg:m-0 lg:p-0 lg:items-center">
-            <a href="/" class="block p-[10px] text-primary font-bold">Login</a>
+            <a href="#" class="block p-[10px] text-primary font-bold">Login</a>
             <BaseButton
               class="flex gap-[15px] items-center justify-between uppercase"
               aria-label="Join us"

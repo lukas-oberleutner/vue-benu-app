@@ -136,7 +136,7 @@ const teamMembers = ref<ITeamMember[]>([
               the two major realms of Classical physics:<br />
               Newtonian mechanics
             </Text>
-            <a href="/" class="font-bold text-primary border-none bg-transparent capitalize flex gap-[10px] items-center group">
+            <a href="#" class="font-bold text-primary border-none bg-transparent capitalize flex gap-[10px] items-center group">
               <span>Learn more</span>
               <Icon class="w-[9px] h-[16px] group-hover:animate-moveRight">
                 <span v-html="iconArrowRightLight"></span>
